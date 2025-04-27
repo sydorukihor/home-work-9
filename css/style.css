@@ -299,4 +299,12 @@ body {
         grid-template-columns: repeat(2, auto);
         justify-content: center;
     }
+
+    .offer {
+        padding-top: 150px;
+    }
+
+    .offer_title {
+        margin-bottom: 40px;
+    }
 }
