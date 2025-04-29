@@ -1,0 +1,31 @@
+.text-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+  &--accent {
+    background: $bg-accent;
+  }
+
+  &__title {
+    font-size: 32px;
+    font-weight: 500;
+    margin: 0 0 50px;
+  }
+  &__description {
+    color: $text-secondary;
+    margin: 0;
+    max-width: 540px;
+    text-align: center;
+  }
+    &:not(:last-child) {
+    margin-bottom: 50px;
+    }
+  //доробити
+  &__video {
+    width: 100%;
+    aspect-ratio: 16/9;
+  }
+}
