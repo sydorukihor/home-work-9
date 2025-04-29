@@ -1,0 +1,38 @@
+.offer {
+  background: $bg-accent;
+  padding-bottom: 141px;
+  padding-top: 257px;
+
+  &_title {
+    font-weight: 500;
+    font-size: 48px;
+    margin: 0 0 60px;
+  }
+  &_description {
+    max-width: 540px;
+    margin: 0 0 60px;
+    color: $text-secondary;
+  }
+}
+
+.button {
+  background: $color-accent;
+  color: $text-accent;
+  border: $button-border;
+  display: inline-flex;
+  justify-content: center;
+  line-height: 1.64;
+  letter-spacing: 0.01em;
+  padding: 18px 41px;
+  min-width: 225px;
+  box-sizing: border-box;
+
+  &:hover,
+  &:focus {
+    opacity: .8;
+  }
+  &:active {
+    opacity: .3;
+  }
+
+}
