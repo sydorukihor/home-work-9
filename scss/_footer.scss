@@ -1,0 +1,21 @@
+.footer {
+  background: $color-accent;
+  height: 151px;
+
+  &__title {
+    color: $text-accent;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 1;
+    margin-top: 50px;
+  }
+
+  &__description {
+    color: $text-accent;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 1.64;
+    margin-bottom: 50px;
+  }
+}

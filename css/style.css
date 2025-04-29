@@ -410,7 +410,7 @@ body {
   max-width: 540px;
   text-align: center;
 }
-.text-section:not(.text-section:last-child) {
+.text-section__description:not(.text-section__description:last-child) {
   margin-bottom: 50px;
 }
 .text-section__video {
@@ -445,6 +445,26 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1;
+}
+
+.footer {
+  background: #34547A;
+  height: 151px;
+}
+.footer__title {
+  color: #fff;
+  font-weight: 500;
+  font-size: 21px;
+  line-height: 1;
+  margin-top: 50px;
+}
+.footer__description {
+  color: #fff;
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 1.64;
+  margin-bottom: 50px;
 }
 
 /*# sourceMappingURL=style.css.map */

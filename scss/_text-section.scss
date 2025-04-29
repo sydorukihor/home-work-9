@@ -19,13 +19,11 @@
     margin: 0;
     max-width: 540px;
     text-align: center;
-  }
 
     &:not(&:last-child) {
-    margin-bottom: 50px;
+      margin-bottom: 50px;
     }
-
-  //доробити
+  }
   &__video {
     width: 100%;
     aspect-ratio: 16/9;
