@@ -1,0 +1,38 @@
+.header {
+  padding-top: 79px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--bg-accent);
+
+  &__nav-toggler, #nav-toggler {
+    display: none;
+  }
+
+  &__list {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    margin: 0;
+    padding: 0;
+  }
+  &__link {
+    text-decoration: none;
+    color: var(--color-black);
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+  }
+    &--active {
+    color: var(--color-accent);
+    font-weight: 500;
+    }
+    &:hover,
+    &:focus {
+    opacity: .8;
+    }
+    &:active {
+    opacity: .3;
+    }
+}
