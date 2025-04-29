@@ -1,6 +1,11 @@
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.64;
+
   display: grid;
   grid-template-rows: auto 1fr auto;
+}
+
+.container {
+  padding: 0 calc(50vw - 555px);
 }
