@@ -325,7 +325,7 @@ body {
   top: 0;
   width: 100%;
   box-sizing: border-box;
-  background: var(--bg-accent);
+  background: #EEEFF1;
 }
 .header__nav-toggler, .header #nav-toggler {
   display: none;
@@ -339,12 +339,12 @@ body {
 }
 .header__link {
   text-decoration: none;
-  color: var(--color-black);
+  color: #000;
   letter-spacing: 0.01em;
   text-transform: uppercase;
 }
 .header--active {
-  color: var(--color-accent);
+  color: #34547A;
   font-weight: 500;
 }
 .header:hover, .header:focus {
