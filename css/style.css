@@ -467,4 +467,107 @@ body {
   margin-bottom: 50px;
 }
 
+@media screen and (max-width: 1170px) {
+  .container {
+    padding-left: calc(50vw - 360px);
+    padding-right: calc(50vw - 360px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    padding-left: calc(50vw - 260px);
+    padding-right: calc(50vw - 260px);
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .projects {
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 576px) {
+  .projects {
+    grid-template-columns: repeat(2, auto);
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding-top: 20px;
+    align-items: center;
+  }
+  .header__nav-toggler {
+    display: block;
+    background: none;
+    border: none;
+    padding: 0;
+    position: relative;
+    width: 45px;
+    height: 45px;
+  }
+  .header__nav-toggler span, .header__nav-toggler::before, .header__nav-toggler::after {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 2px;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    background: #000;
+    transition: 0.5s;
+  }
+  .header__nav-toggler::before {
+    margin-top: -10px;
+  }
+  .header__nav-toggler::after {
+    margin-top: 10px;
+  }
+  input:checked + .header__nav-toggler::before, input:checked + .header__nav-toggler::after {
+    margin-top: 0;
+    rotate: 225deg;
+  }
+  input:checked + .header__nav-toggler::after {
+    rotate: -225deg;
+  }
+  input:checked + .header__nav-toggler span {
+    opacity: 0;
+  }
+  .header__list {
+    position: absolute;
+    top: 65px;
+    left: 0;
+    height: calc(100dvh - 65px);
+    background: #EEEFF1;
+    translate: -200vw 0;
+    transition: translate 0.5s;
+    flex-direction: column;
+    overflow: auto;
+    width: 100%;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  #nav-toggler:checked ~ .header__list {
+    translate: 0;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .offer {
+    padding-top: 150px;
+  }
+  .offer_title {
+    margin-bottom: 40px;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

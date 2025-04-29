@@ -1,5 +1,6 @@
 @import "normalize";
 @import "veriables";
+
 body {
   font-family: "Roboto", sans-serif;
   line-height: 1.64;
@@ -17,3 +18,5 @@ body {
 @import "text-section";
 @import "projects";
 @import "footer";
+@import "mixins";
+@import "adaptive";
