@@ -20,9 +20,11 @@
     max-width: 540px;
     text-align: center;
   }
-    &:not(:last-child) {
+
+    &:not(&:last-child) {
     margin-bottom: 50px;
     }
+
   //доробити
   &__video {
     width: 100%;
